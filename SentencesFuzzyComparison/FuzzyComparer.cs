@@ -78,7 +78,7 @@ namespace SentencesFuzzyComparison {
         /// <param name="first">Первое предложение.</param>
         /// <param name="second">Второе предложение.</param>
         /// <returns>Результат нечеткого сравнения предложений.</returns>
-        public double CalculateFuzzyEqualValue(string first, string second) {
+        public  double CalculateFuzzyEqualValue(string first, string second) {
             if (string.IsNullOrWhiteSpace(first) && string.IsNullOrWhiteSpace(second)) {
                 return 1.0;
             }
